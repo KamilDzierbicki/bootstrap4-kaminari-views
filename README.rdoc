@@ -1,0 +1,22 @@
+= Bootstrap4 Kaminari Views
+
+Quick Bootstrap 4 styling (tested for bootstrap 4.0.0.alpha3) for {Kaminari}[https://github.com/amatsuda/kaminari]
+
+= Installation
+Include to your Gemfile
+
+    gem 'kaminari'
+    gem 'bootstrap4-kaminari-views'
+
+Render Pagination with a theme
+
+    = paginate @users, theme: 'twitter-bootstrap-4'
+
+Render with specific pagination classes
+
+    = paginate @users, theme: 'twitter-bootstrap-4',
+                       pagination_class: "pagination-sm"
+= Credits
+
+{Kaminari}[https://github.com/amatsuda/kaminari] - For making kaminari gem
+{bootstrap-kaminari-views}[https://github.com/matenia/bootstrap-kaminari-views] - For making bootstrap-ify views for kaminari
