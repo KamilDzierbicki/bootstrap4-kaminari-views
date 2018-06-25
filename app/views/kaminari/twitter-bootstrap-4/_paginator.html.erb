@@ -7,8 +7,9 @@
     paginator:     the paginator that renders the pagination tags inside
 -%>
 <%- pagination_class ||= '' %>
+<%- nav_class ||= '' %>
 <%= paginator.render do -%>
-<nav>
+<nav class="<%= nav_class %>">
   <ul class="pagination <%= pagination_class %>">
     <%= first_page_tag unless current_page.first? %>
     <%= prev_page_tag unless current_page.first? %>
