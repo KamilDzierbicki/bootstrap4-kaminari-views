@@ -17,10 +17,11 @@ Render Pagination with a theme
 
     = paginate @users, theme: 'twitter-bootstrap-4'
 
-Render with specific pagination classes
+Render with specific pagination & nav classes
 
     = paginate @users, theme: 'twitter-bootstrap-4',
-                       pagination_class: "pagination-sm"
+                       pagination_class: "pagination-sm",
+                       nav_class: "d-inline-b"
 = Credits
 
 {Kaminari}[https://github.com/amatsuda/kaminari] - For making kaminari gem
