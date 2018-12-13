@@ -1,6 +1,6 @@
 = Bootstrap4 Kaminari Views
 
-Quick Bootstrap 4 styling (tested for bootstrap 4.0.0.alpha3) for {Kaminari}[https://github.com/amatsuda/kaminari]
+Quick Bootstrap 4 styling (tested for bootstrap 4.0.0) for {Kaminari}[https://github.com/amatsuda/kaminari]
 
 = Installation
 Include to your Gemfile
