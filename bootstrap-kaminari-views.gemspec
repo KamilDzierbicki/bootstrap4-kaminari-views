@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "bootstrap4-kaminari-views"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.authors     = ["Kamil Dzierbicki"]
   s.email       = ["dzierbicki.kamil@outlook.com"]
   s.homepage    = "http://github.com/KamilDzierbicki/bootstrap4-kaminari-views"
